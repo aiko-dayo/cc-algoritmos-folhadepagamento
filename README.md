@@ -1,14 +1,21 @@
-# 💰 Sistema de Folha de Pagamento
+# Sistema de Folha de Pagamento
 
-> Projeto desenvolvido para a disciplina de Algoritmos e Programação - 1º Semestre
+Sistema console em Java para gerenciar folha de pagamento de funcionários com diferentes tipos de remuneração.
 
-## 📋 Descrição do Projeto
+## ✨ Funcionalidades
+- Cadastrar funcionário comum
+- Cadastrar funcionário comissionado (salário + comissão)
+- Cadastrar funcionário de produção (salário + bônus por peça)
+- Gerar relatório da folha de pagamento
 
-Sistema simples de folha de pagamento desenvolvido em Java que calcula o salário líquido de funcionários.
+## 🚀 Como usar
+1. Compile: `javac SistemaPagamento.java`
+2. Execute: `java SistemaPagamento`
+3. Siga as opções do menu (1 a 4, ou 0 para sair)
 
-## 🧩 Funcionalidades
-
-- [x] Cadastrar funcionário (nome, salário bruto, dependentes, horas extras, etc.)
-- [x] Calcular descontos
-- [x] Calcular adicionais
-- [x] Calcular folha de vários funcionários
+## 📚 Conceitos aplicados
+- Herança
+- Polimorfismo
+- Sobrescrita de métodos (@Override)
+- ArrayList
+- Entrada de dados com Scanner
